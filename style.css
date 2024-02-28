@@ -1,0 +1,41 @@
+/* Color name */
+h1 {
+    color:darkslategrey;}
+body{
+    background-color: slategrey;
+}
+p.one{
+    overflow: hidden;
+}
+p.two{
+    overflow: scroll;
+}
+#photo-viewer {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    margin: 20px auto;
+    border: 5px solid #333; /* Example style */
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+.thumbnails img {
+    width: 100px; /* Example size */
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.thumbnails img:hover {
+    opacity: 0.8;
+}
+button {
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: cadetblue;
+}
